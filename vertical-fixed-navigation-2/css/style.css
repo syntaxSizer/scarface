@@ -502,7 +502,7 @@ no-js
         color: #eaf2e3;
     }
     .no-js .cd-vertical-nav a.active {
-        color: #c0a672;
+        color: #eaf2e3;
     }
     .no-js .cd-vertical-nav a::after,
     .no-js .cd-vertical-nav a::before {
@@ -527,7 +527,7 @@ no-js
     #mydiv {
         display: block;
         border: solid;
-        background: rgba(255, 255, 255, 0.03);
+        background: rgba(255, 255, 255, 0);
     }
     #social li {
         display: inline-block;
@@ -545,8 +545,9 @@ no-js
         color: white;
     }
     #social ul {
+        position: fixed;
         display: block;
-        border: solid;
+        border: solid transparent;
         margin: 4px;
         width: 21%;
     }
