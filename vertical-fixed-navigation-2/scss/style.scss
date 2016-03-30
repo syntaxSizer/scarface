@@ -344,7 +344,7 @@ Content Sections - basic style
 		/* vertically align <div> inside <section> */
 		display: table-cell;
 		vertical-align: middle;
-		text-align: center;
+		text-align: center
 	}
 
 	h1, h2 {
@@ -438,3 +438,6 @@ no-js
 		@include transform(translateX(0));
 	}
 }
+display: table-cell;
+		vertical-align: middle;
+		text-align: center
