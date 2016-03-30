@@ -569,3 +569,7 @@ no-js
         border: solid 7px green;
         background: yellow;
     }
+
+#td {
+    padding: 8px;
+}
