@@ -563,15 +563,15 @@ no-js
     }
     .table tr {
         display: inline-flex;
+        padding: 16px;
     }
     .table td {
         display: block;
-        border: solid 7px green;
+        border: solid 7px #120a07;
         background: #0a0909;
     }
     #td {
         padding: 8px;
-
     }
     #img {
         width: 100%;
@@ -596,3 +596,12 @@ no-js
     #gear {
         font-size: 79px;
     }
+
+#strok {
+    color: orangered;
+}
+
+#semi-fotter {
+    display: block;
+    background: #120a07;
+}
