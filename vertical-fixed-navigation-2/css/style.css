@@ -504,3 +504,8 @@ no-js
   -o-transform: translateX(0);
   transform: translateX(0);
 }
+
+#section1 {
+    background-image: url(../img/arkham_knight-wallpaper-1366x768.jpg);
+    background-repeat: no-repeat;
+}
