@@ -509,3 +509,8 @@ no-js
     background-image: url(../img/arkham_knight-wallpaper-1366x768.jpg);
     background-repeat: no-repeat;
 }
+
+#h1 {
+    float: left;
+    padding-bottom: 20%;
+}
