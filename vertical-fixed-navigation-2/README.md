@@ -1,10 +1,12 @@
-Vertical Fixed Navigation #2
-=========
+#CODE-REVOLUTION
 
-A smart vertical navigation, with round indicators that turn into labelled icons when the user interacts with them.
+##This is a gameplay website 
 
-[Article on CodyHouse](https://codyhouse.co/gem/vertical-fixed-navigation-2/)
+it's ci-fi game , 
+STORY : in 2098 scientists invented a new technology called "Bibtack" this TECH allow computers to have latterly  a BRAIN in another words ,computers can make decision based of billions of calculations and data analysis.
 
-[Demo](https://codyhouse.co/demo/vertical-fixed-navigation-2/index.html)
- 
-[Terms](https://codyhouse.co/terms/)
+
+the story of CODE-REVOLUTION similar to terminator's Skynet.
+
+
+
