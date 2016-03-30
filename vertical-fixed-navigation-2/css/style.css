@@ -409,10 +409,10 @@ Content Sections - basic style
         display: table;
         width: 100%;
         height: 100vh;
-        background: #3a2c41;
+        background: #120a07;
     }
     .cd-section:nth-of-type(even) {
-        background-color: #70557e;
+        background-color: #120a07;
     }
     .cd-section > div {
         /* vertically align <div> inside <section> */
@@ -554,23 +554,18 @@ no-js
     #social ul a {
         color: white;
     }
-
-
-.table {
-    padding: 50px;
-    border-collapse: separate;
-    border: solid 3px red;
-    background: ;
-    height:100%;
-    width: 100%;
-}
-.table td{
-    width: 100%;
-    height: 100%;
-    display: block;
-    border: solid 7px green;
-    background: yellow;
-}
-
-
-
+    .table {
+        border-collapse: separate;
+        border: solid 3px red;
+        background: ;
+        height: 100%;
+        width: 100%;
+    }
+    .table tr {
+        display: inline-flex;
+    }
+    .table td {
+        display: block;
+        border: solid 7px green;
+        background: yellow;
+    }
