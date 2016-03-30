@@ -560,6 +560,7 @@ no-js
         background: ;
         height: 100%;
         width: 100%;
+        caption-side: top;
     }
     .table tr {
         display: inline-flex;
@@ -569,7 +570,23 @@ no-js
         border: solid 7px green;
         background: yellow;
     }
-
-#td {
-    padding: 8px;
-}
+    #td {
+        padding: 8px;
+    }
+    #img {
+        width: 100%;
+        height: 100%;
+    }
+    #txt p {
+        text-align: left;
+        font-size: 16px;
+        font-family: "Roboto Condensed";
+    }
+    #store li {
+        display: block;
+    }
+    #ggl {
+        width: 46%;
+        height: 100%;
+        margin-bottom: 6px;
+    }
