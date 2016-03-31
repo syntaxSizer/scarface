@@ -596,12 +596,23 @@ no-js
     #gear {
         font-size: 79px;
     }
-
-#strok {
-    color: orangered;
-}
-
-#semi-fotter {
-    display: block;
-    background: #120a07;
-}
+    #strok {
+        color: orangered;
+    }
+    #semi-fotter {
+        font-size: 23px;
+        display: block;
+        background: #120a07;
+    }
+    #semi-fotter ul li {
+        display: inline-block;
+        padding: 15px;
+        padding-bottom:
+    }
+    #icons {
+        font-size: 40px;
+        color: white;
+    }
+    #icons li:hover {
+        color: #e54f18;
+    }
