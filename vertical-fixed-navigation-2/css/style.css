@@ -126,7 +126,7 @@ Vertical navigation
         -moz-transition: -moz-transform 0.2s;
         transition: transform 0.2s;
         border-radius: 0.25em;
-        background-color: orangered;
+        background-color: #e54f18;
     }
     .cd-vertical-nav a {
         display: block;
@@ -450,7 +450,7 @@ Content Sections - basic style
     }
     .cd-scroll-down {
         position: fixed;
-        left: 50%;
+        left: 20%;
         right: auto;
         -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
@@ -460,7 +460,7 @@ Content Sections - basic style
         bottom: 20px;
         width: 44px;
         height: 44px;
-        background: url(../img/cd-arrow-bottom.svg) no-repeat center center;
+        background: url(../img/cd-arrow-bottom.sv) no-repeat center center;
     }
     /* --------------------------------
 
