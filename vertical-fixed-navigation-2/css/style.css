@@ -616,3 +616,10 @@ no-js
     #icons li:hover {
         color: #e54f18;
     }
+
+#btn {
+    display: block;
+    border: solid 2px;
+    width: 50%;
+    padding:
+}
