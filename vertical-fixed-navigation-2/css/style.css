@@ -616,8 +616,10 @@ no-js
     }
 
 #btn {
-    display: block;
-    border: solid 2px;
-    width: 50%;
-    padding:
+align-self: center;
+    padding:6px;
+    border-radius: 6px; transparent;
+    background-color: #e54f18;
+    color: white;
+    font-weight: 600;
 }
