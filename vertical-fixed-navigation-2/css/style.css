@@ -639,6 +639,9 @@ no-js
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    #ft a:hover {
+        text-decoration: underline;
+    }
     #ft a {
         font-size: 12px;
         margin-left: 22px;
