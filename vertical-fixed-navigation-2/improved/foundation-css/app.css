@@ -23,7 +23,8 @@ HERO
     height: 400px;
 }
 .button.success {
-    background-color: orange;
+    margin-top: 12px;
+    background-color: #E54F18;
 }
 
 /*******************************************
@@ -83,10 +84,24 @@ body {
     font-size: 1.5em;
     letter-spacing: 5px;
 }
-
 .text3 {
     text-align: center;
     border: solid 15px #120A07;
     color: #fff;
-
+}
+label {
+    color: #fff;
+    font-size: 1.3em;
+}
+#in {
+    width: 50%
+}
+.text4 h2 {
+    color: #fff;
+}
+.frolist {
+    list-style: none;
+}
+.button.success:hover {
+    color: rgba(229, 79, 24, 0.36);
 }
