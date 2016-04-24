@@ -84,6 +84,12 @@ body {
     font-size: 1.5em;
     letter-spacing: 5px;
 }
+.text5 {
+    background-color: #0A0909;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+}
 .text3 {
     text-align: center;
     border: solid 15px #120A07;
@@ -104,4 +110,28 @@ label {
 }
 .button.success:hover {
     color: rgba(229, 79, 24, 0.36);
+}
+h2 {
+    color: #fff;
+}
+#hd {
+    font-size: 3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+footer {
+    background-color: #000000;
+    margin-left: 10px;
+}
+footer a {
+    display: inline;
+    padding: 5px;
+    color: #E54F18;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer P {
+    color: #fff;
 }
