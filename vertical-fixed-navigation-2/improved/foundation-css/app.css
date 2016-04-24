@@ -89,3 +89,33 @@ body {
 .row {
     max-width: 1350px;
 }
+
+.text {
+    margin-top: 100px;
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    text-align:center;
+}
+
+
+
+
+
+
+
+.icon {
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+}
+.icon li{
+    display: inline;
+
+}
+
+.text2 {
+text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+}
