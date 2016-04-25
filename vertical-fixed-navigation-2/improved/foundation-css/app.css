@@ -60,11 +60,14 @@ body {
     max-width: 1350px;
 }
 .text {
-    margin-top: 100px;
+    margin-top: 60px;
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1em;
     letter-spacing: 4px;
     text-align: center;
+}
+.text h1{
+    font-size: 4vw;
 }
 .icon {
     list-style: none;
@@ -94,6 +97,7 @@ body {
     text-align: center;
     border: solid 15px #120A07;
     color: #fff;
+    font-size: 1.3vw;
 }
 label {
     color: #fff;
@@ -135,3 +139,7 @@ footer a:hover {
 footer P {
     color: #fff;
 }
+
+
+
+
