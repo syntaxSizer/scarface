@@ -73,6 +73,12 @@ body {
     list-style: none;
     display: inline-block;
     color: #fff;
+
+    font-size: 1.4em;
+}
+.icon li :hover{
+    color: #E54F18;
+
 }
 .icon li {
     display: inline;
