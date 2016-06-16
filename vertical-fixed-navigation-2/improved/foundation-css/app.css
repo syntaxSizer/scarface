@@ -66,19 +66,17 @@ body {
     letter-spacing: 4px;
     text-align: center;
 }
-.text h1{
+.text h1 {
     font-size: 4vw;
 }
 .icon {
     list-style: none;
     display: inline-block;
     color: #fff;
-
     font-size: 1.4em;
 }
-.icon li :hover{
+.icon li:hover {
     color: #E54F18;
-
 }
 .icon li {
     display: inline;
@@ -126,8 +124,8 @@ h2 {
 }
 #hd {
     font-size: 4em;
-/*    padding-top: 20px;*/
-/*    padding-bottom: 20px;*/
+    /*    padding-top: 20px;*/
+    /*    padding-bottom: 20px;*/
     color: #fff;
 }
 footer {
@@ -145,31 +143,18 @@ footer a:hover {
 footer P {
     color: #fff;
 }
-
-
-
-
-
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     font-family: Electrolize;
 }
-
-
-
-
-
-
-
-
-
-
-
 .menu--iris {
     position: fixed;
 }
-
 #about {
     color: #fff;
 }
-
-
