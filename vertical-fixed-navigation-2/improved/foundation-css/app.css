@@ -48,20 +48,22 @@ footer a {
     display: block;
 }
 body {
-    background-color: #000000;
+    background-color: #000;
     font-family: Electrolize;
+    color: #CCCCCC;
 }
 .background01 {
-    background-image: url(../img/arkham_knight-wallpaper-1366x768.jpg);
+    background-image: url(../img/Cod.com-IW_hero_image_ad.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .row {
     max-width: 1350px;
 }
 .text {
     margin-top: 60px;
-    color: #fff;
+    color: #CCCCCC;
     font-size: 1em;
     letter-spacing: 4px;
     text-align: center;
@@ -72,7 +74,7 @@ body {
 .icon {
     list-style: none;
     display: inline-block;
-    color: #fff;
+    color: #CCCCCC;
     font-size: 1.4em;
 }
 .icon li:hover {
@@ -86,7 +88,8 @@ body {
     transition: 2s;
 }
 .text2 {
-    background-color: #120A07;
+    background-color: #000000;
+    /*    background-color: transparent;*/
     text-align: center;
     font-size: 1.5em;
     letter-spacing: 5px;
@@ -234,6 +237,8 @@ video {
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
 }
+
+/*
 body {
     background-color: #e5e9e9;
     font-size: 22px;
@@ -242,6 +247,8 @@ body {
     font-family: "Raleway";
     font-weight: 400;
 }
+*/
+
 .fixed-nav-bar {
     position: fixed;
     top: 0;
@@ -271,7 +278,7 @@ body {
     cursor: pointer;
 }
 .fixed-nav-bar .logo span {
-    color: #e78533;
+    color: #E54F18;
     font-weight: 600;
 }
 .fixed-nav-bar.scrolled {
@@ -302,6 +309,7 @@ body {
     right: 8px;
     bottom: 0;
     background-color: #222;
+    /*    padding-top: 22px;*/
 }
 .drop-down-item:before {
     content: "";
@@ -311,8 +319,8 @@ body {
     width: 8px;
     -webkit-transition: 0.25s ease;
     transition: 0.25s ease;
-    background: -webkit-linear-gradient(right, #e78533 50%, #222 50%);
-    background: linear-gradient(to left, #e78533 50%, #222 50%);
+    background: -webkit-linear-gradient(right, #E54F18 50%, #222 50%);
+    background: linear-gradient(to left, #E54F18 50%, #222 50%);
     background-size: 200% 100%;
     background-position: left;
 }
@@ -320,6 +328,8 @@ body {
     background-position: right;
 }
 .the-bass {
+    text-align: center;
+    color: #fff;
     position: fixed;
     height: 0px;
     width: 360px;
@@ -425,4 +435,12 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+/*nav bar small screen*/
+
+@media (max-width:980px) {
+    .logo {
+        display: none;
+    }
 }
