@@ -54,7 +54,7 @@ body {
 }
 .background01 {
     background-image: url(../img/Cod.com-IW_hero_image_ad.jpg);
-/*    background-attachment: fixed;*/
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
     /*    background-position: center;*/
