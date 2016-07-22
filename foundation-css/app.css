@@ -25,6 +25,7 @@ HERO
 .button.success {
     margin-top: 12px;
     background-color: #E54F18;
+    width: 100%;
 }
 
 /*******************************************
@@ -103,7 +104,7 @@ body {
 }
 .text3 {
     text-align: center;
-/*    border: solid 15px #120A07;*/
+    /*    border: solid 15px #120A07;*/
     color: #fff;
     font-size: 1.2vw;
 }
@@ -119,7 +120,10 @@ label {
     color: #fff;
 }
 .frolist {
+    margin: 0;
+    padding: 0;
     list-style: none;
+    text-align: left;
 }
 .button.success:hover {
     color: rgba(229, 79, 24, 0.36);
@@ -402,7 +406,6 @@ body {
         font-size: 25px;
     }
 }
-
 .yay {
     background-image: url(../img/promo-bg.jpg);
     background-repeat: no-repeat;
@@ -410,7 +413,17 @@ body {
     background-size: contain;
     background-position: center;
 }
-
 .height {
     margin-top: -10px;
+}
+@media (max-width:768px) {
+    #hd {
+        font-size: 25px;
+    }
+    .head {
+        font-size: 33px;
+    }
+    .icon p {
+        font-size: 14px;
+    }
 }
